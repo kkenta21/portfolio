@@ -1,0 +1,80 @@
+body{
+    position: relative;
+}
+
+.top{
+    font-size: 8vw;
+    font-family: "Courier New";
+    position: absolute;
+    top: 6vh;
+    left: 38vw;
+}
+
+.piano div{
+    width: 40VW;
+    height: auto;
+    font-size: 1vw;
+    position: absolute;
+    top: 110vh;
+    left: 50vw;
+}
+.piano img{
+    width: 40VW;
+    height: auto;
+    font-size: 1vw;
+    position: absolute;
+    top: 110vh;
+    left: 7vw;
+}
+.piano span{
+    font-size: 2vw;
+    padding-left: 14vw;
+}
+
+.violin div{
+    width: 40VW;
+    height: auto;
+    font-size: 1vw;
+    position: absolute;
+    top: 190vh;
+    left: 7vw;
+}
+.violin img{
+    width: 40VW;
+    height: auto;
+    font-size: 1vw;
+    position: absolute;
+    top: 190vh;
+    left: 50vw;
+}
+.violin span{
+    font-size: 2vw;
+    padding-left: 14vw;
+}
+
+.sakkyoku div{
+    width: 40VW;
+    height: 60vh;
+    font-size: 1vw;
+    position: absolute;
+    top: 270vh;
+    left: 50vw;
+}
+.sakkyoku img{
+    width: 40VW;
+    height: auto;
+    font-size: 1vw;
+    position: absolute;
+    top: 270vh;
+    left: 7vw;
+}
+.sakkyoku span{
+    font-size: 2vw;
+    padding-left: 14vw;
+}
+
+br{
+    display: block;
+    content: "";
+    height: 2vw;
+}

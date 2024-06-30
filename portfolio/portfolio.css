@@ -1,0 +1,135 @@
+body{
+    overflow: hidden;
+}
+
+.robotics {
+    display:table-cell;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.robotics img{
+    width: 33vw;
+    height: 100vh;
+    opacity: 0.8;
+    filter: grayscale(100%);
+    transition: 0.5s;
+}
+
+.robotics img:hover{
+    opacity: 1;
+    transform: scale(1.1);
+    filter: grayscale(0%);
+}
+
+.profile2 {
+    display:table-cell;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.profile2 img{
+    width: 34vw;
+    height: 100vh;
+    opacity: 0.8;
+    filter: grayscale(100%);
+    transition: 0.5s;
+}
+
+.profile2 img:hover{
+    opacity: 1;
+    transform: scale(1.1);
+    filter: grayscale(0%);
+}
+
+.music {
+    display:table-cell;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.music img{
+    width: 33vw;
+    height: 100vh;
+    opacity: 0.8;
+    filter: grayscale(100%);
+    transition: 0.5s;
+}
+
+.music img:hover{
+    opacity: 1;
+    transform: scale(1.1);
+    filter: grayscale(0%);
+}
+
+p.text_robo{
+    align-items: center; /* テキストの中央揃え */
+    display: flex; /* テキストの中央揃え */
+    justify-content: center; /* テキストの中央揃え */
+    margin: auto;
+    font-size: 70px;
+    color: navy; /* テキストの色 */
+    font-family: Impact;
+    -webkit-text-stroke: 2px black;
+    pointer-events: none;
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    right: 67vw;
+    top: 0;
+    bottom: 80vh;
+}
+
+p.text_pro{
+    align-items: center; /* テキストの中央揃え */
+    display: flex; /* テキストの中央揃え */
+    justify-content: center; /* テキストの中央揃え */
+    margin: auto;
+    font-size: 70px;
+    color: black; /* テキストの色 */
+    font-family:"Georgia";
+    -webkit-text-stroke: 2px black;
+    pointer-events: none;
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 80vh;
+}
+
+p.text_mu{
+    align-items: center; /* テキストの中央揃え */
+    display: flex; /* テキストの中央揃え */
+    justify-content: center; /* テキストの中央揃え */
+    margin: auto;
+    font-size: 70px;
+    color: #FFFF66; /* テキストの色 */
+    font-family: "Bookman Old Style";
+    -webkit-text-stroke: 2px black;
+    pointer-events: none;
+    position: absolute;
+    z-index: 1;
+    left: 67vw;
+    right: 0;
+    top: 0;
+    bottom: 80vh;
+}
+
+p.namae{
+    align-items: center; /* テキストの中央揃え */
+    display: flex; /* テキストの中央揃え */
+    justify-content: center; /* テキストの中央揃え */
+    margin: auto;
+    font-size: 90px;
+    color: white; /* テキストの色 */
+    font-family: "ＭＳ ゴシック";
+    -webkit-text-stroke: 2px black;
+    pointer-events: none;
+    position: absolute;
+    z-index: 1;
+    left: 0vw;
+    right: 0;
+    top: 0;
+    bottom: -85vh;
+}

@@ -1,0 +1,102 @@
+body{
+    overflow: hidden;
+    display: table-cell; 
+}
+
+.coruku img{
+    z-index: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.whiteBack img{
+    position: absolute;
+    z-index: 1;
+    width: 40vw;
+    height: 40vh;
+}
+.WB1{ top: 7vh; left: 7vw; }
+.WB2{ top: 7vh; right: 7vw; }
+.WB3{ bottom: 5vh; left: 7vw; }
+.WB4{ bottom: 5vh; right: 7vw; }
+
+.te-pu img{
+    position: absolute;
+    z-index: 2;
+    width: 14vw;
+    height: 7vh;
+}
+.TP1{ top: 3.5vh; left: 20vw; transform:rotate(-3deg); }
+.TP2{ top: 3.5vh; right: 20vw; transform:rotate(-1deg); }
+.TP3{ bottom: 41.5vh; left: 20vw; transform:rotate(2deg); }
+.TP4{ bottom: 41.5vh; right: 20vw; transform:rotate(-2deg); }
+
+body span{ text-decoration: underline 0.2vw; text-decoration-color: red; }
+
+.profile{
+    z-index: 3;
+    font-size: 1.5vw;
+    line-height: 4.5vh;
+    width: 34vw;
+    height: 34vh;
+
+    position: absolute;
+    left: 11vw;
+    top: 10vh;
+}
+.profile p{
+    width: 10vw;
+    text-decoration: underline 0.3vw;
+    text-decoration-color: aqua;
+}
+
+.syumi{
+    z-index: 3;
+    font-size: 1.5vw;
+    line-height: 4.5vh;
+    width: 34vw;
+    height: 34vh;
+
+    position: absolute;
+    left: 11vw;
+    bottom: 8vh;
+}
+.syumi p{
+    width: 8vw;
+    text-decoration: underline 0.3vw;
+    text-decoration-color: aqua;
+}
+
+.hamari{
+    z-index: 3;
+    font-size: 1.5vw;
+    line-height: 4.5vh;
+    width: 34vw;
+    height: 34vh;
+
+    position: absolute;
+    right: 9vw;
+    top: 10vh;
+}
+.hamari p{
+    width: 14vw;
+    text-decoration: underline 0.3vw;
+    text-decoration-color: aqua;
+}
+
+.mokuhyo{
+    z-index: 3;
+    font-size: 1.5vw;
+    line-height: 4.5vh;
+    width: 34vw;
+    height: 34vh;
+
+    position: absolute;
+    right: 9vw;
+    bottom: 8vh;
+}
+.mokuhyo p{
+    width: 7vw;
+    text-decoration: underline 0.3vw;
+    text-decoration-color: aqua;
+}
